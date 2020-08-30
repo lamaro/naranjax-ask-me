@@ -7,7 +7,7 @@ const Header = () => {
         <HeaderContainer>
             <Link href="/">
                 <a>
-                    <img src="/logo.svg" alt="Minimal.ar Logo" className="logo" />
+                    <img src="/logo_naranjax.svg" alt="Minimal.ar Logo" className="logo" />
                 </a>
             </Link>
             <Nav />

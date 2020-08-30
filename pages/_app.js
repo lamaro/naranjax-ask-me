@@ -11,7 +11,7 @@ export default function MyApp({ Component, pageProps }) {
           name="viewport"
           content="width=device-width, initial-scale=1, viewport-fit=cover"
         />
-        <title>Minimal Ask Me</title>
+        <title>Naranaja X | Prensa</title>
       </Head>
       <GlobalStyle />
         <Component {...pageProps} />

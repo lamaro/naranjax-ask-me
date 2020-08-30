@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.header`
+background-color:#fff; 
     width: 100%;
     padding: 0 40px;
     height: 100px;
@@ -10,7 +11,7 @@ export const Container = styled.header`
     align-items: center;
 
     .logo {
-        height: 1.2em;
+        height: 1.8em;
     }
 
     img {

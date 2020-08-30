@@ -33,12 +33,13 @@ const Question = ({ data }) => {
             </div>
             <div className="actions_content">
                 <button
+                    className="hightlight"
                     onClick={() => handleHighlight(id, highlight)}
-                >Highlight</button>
+                >Resaltar</button>
                 <button
                 className="red"
                     onClick={() => handleDelete(id)}
-                >Delete</button>
+                >Borrar</button>
             </div>
         </QuestionContainer>
     )
