@@ -1,0 +1,22 @@
+{
+  "name": "minimal-ask-me",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "debug": "now dev -l 3001 --debug"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "babel-plugin-module-resolver": "^4.0.0",
+    "babel-plugin-styled-components": "^1.11.1",
+    "firebase": "^7.17.1",
+    "formik": "^2.1.5",
+    "next": "9.5.1",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "styled-components": "^5.1.1"
+  }
+}
