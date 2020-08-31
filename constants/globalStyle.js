@@ -19,6 +19,7 @@ button { width: 140px; cursor: pointer; opacity: .8; background: #fff; border:0;
 button:first-child {margin-left:0;}
 
 .red {background-color: #ff0000;}
+.orange {background-color: #FF5000!important;}
 .hightlight {background-color: #F0B40A; color: #320A46;}
 .hightlight_over {background-color: #eee; color: #320A46;}
 

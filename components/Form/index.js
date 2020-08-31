@@ -68,8 +68,8 @@ const FormBasic = () => {
                             <Field as="textarea" type="question" name="question" placeholder="Pregunta" />
                             <ErrorMessage name="question" component="div" />
                         </div>
-                        <button type="submit" disabled={isSubmitting}>
-                            Submit
+                        <button type="submit" disabled={isSubmitting} className="orange">
+                            Enviar
                         </button>
                     </Form>
                 )}
