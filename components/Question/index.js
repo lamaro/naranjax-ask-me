@@ -5,7 +5,7 @@ import axios from 'axios';
 const Question = ({ data }) => {
     const [toDelete, setToDelete] = useState(null)
     const { id, question, company, name, highlight } = data
-    
+
     const handleDelete = async id => {
         try {
             setToDelete(id)
@@ -29,15 +29,17 @@ const Question = ({ data }) => {
         >
             <div className="question_content">
                 <h2>{question}</h2>
-                <p>{name} - <span>{company}</span></p>
+                <p><span>{name}</span> - {company}</p>
             </div>
             <div className="actions_content">
                 <button
-                    className="hightlight"
+                    className={!highlight ? "hightlight" : "hightlight_over"}
                     onClick={() => handleHighlight(id, highlight)}
-                >Resaltar</button>
+                >
+                    {!highlight ? 'Resaltar' : 'No Resaltar'}
+                </button>
                 <button
-                className="red"
+                    className="red"
                     onClick={() => handleDelete(id)}
                 >Borrar</button>
             </div>

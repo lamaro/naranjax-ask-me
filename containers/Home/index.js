@@ -1,15 +1,17 @@
 import { FormBasic } from 'components'
-import Link from 'next/link'   
+import Link from 'next/link'
 export default function Home() {
     return (
         <>
-            <h1 className="title">
-                Ask Me 
+            <div className="inner">
+                <h1 className="title">
+                    Haceme tu
                 <Link href="/questions">
-                 <a> something!</a>
-                </Link>
-            </h1>
-            <FormBasic />
+                        <a> pregunta!</a>
+                    </Link>
+                </h1>
+                <FormBasic />
+            </div>
         </>
     )
 }

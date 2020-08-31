@@ -12,13 +12,13 @@ const FormBasic = () => {
                 validate={values => {
                     const errors = {};
                     if (!values.name) {
-                        errors.name = 'Required';
+                        errors.name = 'Requerido';
                     }
                     if (!values.company) {
-                        errors.company = 'Required';
+                        errors.company = 'Requerido';
                     }
                     if (!values.question) {
-                        errors.question = 'Required';
+                        errors.question = 'Requerido';
                     }
                     return errors;
                 }}
@@ -57,15 +57,15 @@ const FormBasic = () => {
                 {({ isSubmitting }) => (
                     <Form>
                         <div className="input_row">
-                            <Field type="name" name="name" placeholder="Name" />
+                            <Field type="name" name="name" placeholder="Nombre" />
                             <ErrorMessage name="name" component="div" />
                         </div>
                         <div className="input_row">
-                            <Field type="company" name="company" placeholder="Company" />
+                            <Field type="company" name="company" placeholder="Medio" />
                             <ErrorMessage name="company" component="div" />
                         </div>
                         <div className="input_row">
-                            <Field as="textarea" type="question" name="question" placeholder="Your Question" />
+                            <Field as="textarea" type="question" name="question" placeholder="Pregunta" />
                             <ErrorMessage name="question" component="div" />
                         </div>
                         <button type="submit" disabled={isSubmitting}>

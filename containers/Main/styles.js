@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
+min-height:600px;
 padding: 50px 0;
   a {
     color: inherit;
@@ -8,7 +9,7 @@ padding: 50px 0;
   }
 
   .title a {
-    color: #0070f3;
+    color: #FF5000;
     text-decoration: none;
   }
 
