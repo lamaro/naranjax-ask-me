@@ -11,7 +11,8 @@ margin-bottom: 10px;
 :last-child {border:0;}
 
 .actions_content{display:flex;justify-content:center; align-items:center;}
-.question_content span {font-weight:700;}
+.question_content .name_bold {font-weight:700;}
+.question_content .company_italic {font-style:italic;}
 
 
 @media (max-width: 860px) {

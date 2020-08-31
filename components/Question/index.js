@@ -29,7 +29,7 @@ const Question = ({ data }) => {
         >
             <div className="question_content">
                 <h2>{question}</h2>
-                <p><span>{name}</span> - {company}</p>
+                <p><span className="name_bold">{name}</span> - <span className="company_italic">    {company}</span></p>
             </div>
             <div className="actions_content">
                 <button
